@@ -38,7 +38,7 @@ class FirstPage extends StatefulWidget {
 
 class _FirstPageState extends State<FirstPage> {
   int dogNo = 1;
-  List<String> names = ['AA', 'BB'];
+  List<String> names = ['FIRST DOG', 'LAST DOG'];
   String dogName = '';
   void x() {
     setState(() {
@@ -107,7 +107,7 @@ class _FirstPageState extends State<FirstPage> {
               width: 150,
             ),
           )),
-          Text('AAAAA'),
+          Text('LAST DOG'),
         ],
       ),
     );
