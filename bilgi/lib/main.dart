@@ -8,6 +8,7 @@ class BilgiTesti extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: Scaffold(
             backgroundColor: Colors.indigo[700],
             body: SafeArea(
